@@ -1,0 +1,5 @@
+3#!/bin/bash
+
+#script to show the absolute path name of the current working directory
+
+pwd
