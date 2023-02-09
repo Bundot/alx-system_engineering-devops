@@ -1,2 +1,2 @@
 #!/bin/bash
-whoami
+cat -n /etc/group
