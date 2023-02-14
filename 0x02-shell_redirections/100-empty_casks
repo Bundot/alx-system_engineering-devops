@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f,d -empty -exec basename {} \;
+find . -name ".*" -empty -printf "%f\n" -o -type d -empty -printf "%f/\n" -exec echo \ 
