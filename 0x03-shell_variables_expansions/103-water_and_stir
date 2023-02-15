@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'a-z' 'A-Z' <<< "$(bc <<< "ibase=water; $WATER + stir=$STIR")" | bc -l <<< "obase=bestchol $(cat)"
+
