@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%x\n' "$DECIMAL" | tr '[:upper:]' '[:lower:]' <(echo)
+printf '%x\n' "$DECIMAL" | tr '[:upper:]' '[:lower:]'
